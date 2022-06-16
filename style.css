@@ -1,0 +1,87 @@
+/*
+Theme Name: Eksam
+Text Domain: eksam
+Version: 1.0
+Tested up to: 5.9
+Requires at least: 5.9
+Requires PHP: 5.2.4
+Description: Veebiprogrammeerimise õppeaine raames loodud teema
+Tags: RIF, õppekava, veebiprogrammeerimine
+Author: Rain Prisk
+Author URI: https://github.com/prisktlu
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle farthest-side, #eeaeca, #94bbe9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-container {
+    margin: auto;
+}
+
+.flexbox-employees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.employee {
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+    flex-basis: 35%;
+    background-color: #ffffff10;
+    padding-bottom: 1%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.attachment-post-thumbnail {
+    width: 25%;
+    height: 25%;
+    transition: transform .1s;
+    display: block;
+    margin: 4%;
+}
+
+.attachment-post-thumbnail:hover {
+    transform-origin: 0% 0%;
+    transform: scale(2);
+}
+
+.post-textbox {
+    padding-left: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.employee:hover {
+    background: linear-gradient(#e9dcffbd, #ffffff00);
+    transition-duration: 2s;
+    
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
